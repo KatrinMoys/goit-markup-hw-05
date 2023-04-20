@@ -45,16 +45,13 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    display: flex;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-left: auto;
     padding: 24px 0;
     margin-right: 76px;
 }
 .container {
-    margin-top: 0;
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -88,11 +85,9 @@ body{
 .nav-link {
     position: relative;
     color:#2E2F42;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
    
 }
@@ -112,11 +107,8 @@ body{
 .current {
   color: var(--accent-color);
 }
-
 .address-link {
     color:#434455 ;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -193,10 +185,7 @@ body{
 }
 
 .feature {
-    margin-top: 0;
     padding: 120px 0 120px;
-    display: flex;
-    gap: 24;
 }
 .feature-title{
     margin-bottom: 8px;
@@ -236,7 +225,6 @@ body{
     margin-bottom: 0;
 }
 .work {
-    margin-top: 0;
     padding-bottom: 120px;
 }
 .work-list{
@@ -325,7 +313,7 @@ body{
 .section-list{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 .team{
     background-color:#F4F4FD;
@@ -510,10 +498,8 @@ body{
  }
  .projects-text{
     margin-top: 8px;
-    padding-left: 16px;
  }
  .projects-item {
-    border: 1px solid #E7E9FC;
     max-width: 360px;
  }
 .projects-content{
