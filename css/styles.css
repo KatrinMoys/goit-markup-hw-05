@@ -476,6 +476,7 @@ body{
  }
  .projects-item {
     max-width: 360px;
+    cursor: pointer;
  }
 .projects-content{
     padding: 32px 16px;
